@@ -1,0 +1,33 @@
+<script type="text/html" id="templates/settings/export/misc.html">
+  <div class="export-panel-misc">
+    <div class="export-panel-header export-info">
+      Less usual export formats. Feedback and improvements welcome.
+    </div>
+    <div class="export-panel-section">
+      <div style="padding-bottom: 5px">
+        <span class="highlight">Export as C File: </span>
+        <span class="export-info">
+          C file with frame rendered as array.
+        </span>
+      </div>
+      <div class="export-panel-row" style="margin: 6px 0;">
+        <span class="export-info" style="display:inline-block; min-width:110px;">NGPC profile:</span>
+        <select class="textfield ngpc-profile">
+          <option value="sprite">Sprite (default)</option>
+          <option value="bg">Background</option>
+        </select>
+      </div>
+      <div class="export-panel-row" style="margin: 6px 0;">
+        <span class="export-info" style="display:inline-block; min-width:110px;">Max layers:</span>
+        <input type="number" min="1" max="8" value="3" class="textfield ngpc-max-layers" style="width:70px;">
+        <span class="export-info" style="margin-left:6px;">(3 => 9 colors/tile)</span>
+      </div>
+      <div class="export-panel-row" style="margin: 6px 0;">
+        <span class="export-info" style="display:inline-block; min-width:110px;">Max palettes:</span>
+        <input type="number" min="1" max="64" value="16" class="textfield ngpc-max-palettes" style="width:70px;">
+        <span class="export-info" style="margin-left:6px;">(per layer)</span>
+      </div>
+      <button type="button" class="button button-primary c-download-button">Download C file</button>
+    </div>
+  </div>
+</script>
