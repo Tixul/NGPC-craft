@@ -1,0 +1,55 @@
+{
+  "default_program": 0,
+  "default": {
+    "attn": 3,
+    "env": {
+      "step": 1,
+      "speed": 9
+    },
+    "vib": {
+      "depth": 1,
+      "speed": 5,
+      "delay": 14
+    },
+    "sweep": {
+      "end": 1,
+      "step": 0,
+      "speed": 1
+    }
+  },
+  "programs": {
+    "80": {
+      "attn": 2,
+      "env": {
+        "step": 1,
+        "speed": 9
+      },
+      "vib": {
+        "depth": 1,
+        "speed": 5,
+        "delay": 14
+      }
+    },
+    "33": {
+      "attn": 3,
+      "env": {
+        "step": 2,
+        "speed": 4
+      }
+    },
+    "1": {
+      "attn": 4,
+      "env": {
+        "step": 1,
+        "speed": 7
+      }
+    },
+    "9": {
+      "attn": 5,
+      "env": {
+        "step": 3,
+        "speed": 3
+      }
+    }
+  }
+}
