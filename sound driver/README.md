@@ -1,7 +1,5 @@
-# Custom NGPC Driver (latest copy)
+# Custom NGPC Driver
 
-This folder is the canonical location for the most up-to-date custom driver.
-Always update these files when the driver changes.
 
 **Files**
 - `sounds.c`
